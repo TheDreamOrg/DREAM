@@ -241,7 +241,7 @@ const MapComponent = () => {
         )}
       </div>
 
-      <div className="absolute bottom-4 left-4 right-4 z-10 bg-white p-4 rounded shadow-md md:w-64 md:left-4 md:right-auto">
+      <div className="absolute bottom-4 text-black left-4 right-4 z-10 bg-white p-4 rounded shadow-md md:w-64 md:left-4 md:right-auto">
         <h3 className="font-bold mb-2">Legend</h3>
         <div className="grid grid-cols-2 gap-2">
           {colorLegend.map(({ color, label }) => (
